@@ -32,7 +32,7 @@ end
 
 get '/find' do
   hospitals = get_services(params[:q])
-  haml(:find, :locals => {:hospitals => hospitals})
+  haml(:find, :locals => {:hospitals => hospitals, :search_terms => params[:q]})
 end
 
 get /view\/([a-zA-Z0-9]+)\/([a-zA-Z0-9])*\/(.*)/ do |code1, code2, hospital_name|

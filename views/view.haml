@@ -1,8 +1,8 @@
 #hospital_details
   #details
     %h2=hospital.name
+    %p.address="#{hospital.street}, #{hospital.city}, #{hospital.postcode}"
     &=hospital.description
-    %p.address="#{hospital.street}<br>#{hospital.city}<br>#{hospital.postcode}"
   #report_problem
     %h2 Report problem
     %form{:action => '/report_problem', :method => 'post'}
@@ -31,6 +31,8 @@
       %input.submit{:type => 'submit', :value => 'Report problem'}
 #hospital_problems
   %h2 Existing problems
+  - if problems.size() == 0
+    %p.noresults No problems reported so far
   - problems.each do |problem|
     %div.problem
       %h3=problem.subject

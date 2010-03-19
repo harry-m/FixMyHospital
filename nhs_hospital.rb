@@ -18,9 +18,13 @@ class NHSHospitals < NHSService
 
   def new_item(el)
     details_url = el.search("//providerprofilepageurl").first.inner_html
+
+    puts "Requesting #{details_url}..."
+
     doc = Hpricot(open(details_url.gsub(" ", "+")))
     email = doc.search("/html/body/div/form/div[2]/div[3]/div/div[2]/div[2]/dl/dd[4]/a/text()").map(&:to_s).first
-    
+    description = doc.search("/html/body/div/form/div[2]/div[3]/div/div[2]/div/p[2]/text()").map(&:to_s).first
+
     hospital = NHSHospital.new(
       el.search("//name").first.inner_html,
       details_url,
@@ -31,7 +35,7 @@ class NHSHospitals < NHSService
       el.search("//code1").first.inner_html,
       el.search("//code2").first.inner_html,
       email,
-      ''
+      description
     )
 
     cache_file = "./cache/service_#{hospital.code1}_#{hospital.code2}"

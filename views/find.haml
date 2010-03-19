@@ -1,16 +1,16 @@
 #hospitals
-  %p If your hospital isn't displayed, you can <a href="#name_search">search for it by name</a>
-  - hospitals.each_slice(9) do |hospital_block|
-    %div.hospital_block
+  .search.top
+    %form{:action => '/find', :method => 'get'}
+      %label{:for => 'name'} Search again:
+      %input{:name => 'q', :id => 'name', :type => 'text', :value => search_terms}
+      %input{:type => 'submit', :value => 'Go'}
+
+  - block = 0; hospitals.each_slice(6) do |hospital_block|
+    .hospital_block{:id => "block_#{(block += 1)}"}
       - hospital_block.each do |hospital|
         %div.hospital{:class => hospital_class(hospital)}
           %h3=hospital.name
           %p.address="#{hospital.street}, #{hospital.city}, #{hospital.postcode}"
-          %p
+          %p.link
             %a{:href => "/view/#{hospital.code1}/#{hospital.code2}/#{hospital.name}", :title => "View and report problems at #{hospital.name}"} View and report problems at this hospital
       %div.clear
-  #name_search
-    %form{:action => '/find', :method => 'get'}
-      %label{:for => 'name'} Hospital name:
-      %input{:name => 'q', :id => 'name', :type => 'text'}
-      %input{:type => 'submit', :value => 'Go'}

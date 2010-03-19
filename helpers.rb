@@ -4,8 +4,16 @@ helpers do
     classes = ''
 
     if(@count == 0 || @count % 3 == 0)
-      classes = 'clear'
+      classes += ' clear'
     end
+
+    if(@count % 2 == 0)
+      classes += ' even'
+    else
+      classes += ' odd'
+    end
+
+    classes += " col_#{@count % 3}"
 
     @count += 1
 
@@ -17,9 +25,9 @@ helpers do
     classes = ''
 
     if(@comment_count % 2 == 0)
-      classes = 'even'
+      classes += ' even'
     else
-      classes = 'odd'
+      classes += ' odd'
     end
 
     @comment_count += 1
