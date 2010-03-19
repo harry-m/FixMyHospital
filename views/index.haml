@@ -8,12 +8,11 @@
     %p Your comments will be emailed to the hospital, so that they can take action to fix the problem
 
     #step_problem
-      %p Remember, this is for specific problems, not general feedback. To give general feedback, visit <a href="http://www.patientopinion.org.uk">Patient Opinion</a>.
       %form{:action => '/find', :method => 'get'}
         %label{:for => 'postcode'} Postcode or hospital name:
         %input{:name => 'q', :id => 'postcode', :type => 'text'}
         %input{:type => 'submit', :class => 'submit', :value => 'Go'}
-        %p.help Either yours, or somewhere near the hospital you want to find
+        %p.help Either your postcode, or somewhere near the hospital you want to find
 
   #feedback
     %h2 Giving general feedback?
@@ -23,5 +22,3 @@
       %a{:href => 'http://www.patientopinion.org.uk'} Give Feedback at Patient Opinion
 
   %div.clear
-
-

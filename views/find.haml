@@ -12,5 +12,5 @@
           %h3=hospital.name
           %p.address="#{hospital.street}, #{hospital.city}, #{hospital.postcode}"
           %p.link
-            %a{:href => "/view/#{hospital.code1}/#{hospital.code2}/#{hospital.name}", :title => "View and report problems at #{hospital.name}"} View and report problems at this hospital
+            %a{:href => "/view/#{hospital.code1}/#{CGI.escape(hospital.name.gsub(/[^\w\s]+/, ''))}", :title => "View and report problems at #{hospital.name}"} View and report problems at this hospital
       %div.clear

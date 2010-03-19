@@ -53,15 +53,19 @@ body
     h1
       margin: 0
 
-    ul, li
-      list-style: none
+    ul
       margin: 0
-      padding: 0
+      padding: 10px 0 0
+    
+      li
+        list-style: none
+        margin: 0
+        padding: 0
 
   #content
     #strap
       font-size: 2em
-      padding-bottom: 10px
+      padding-bottom: 20px
 
       p
         margin: 0 0 10px 0
@@ -73,7 +77,7 @@ body
     #feedback
       float: right
       width: 310px
-      background: #00a8c4
+      background: #00ecf8
       padding: 20px
 
       h2
@@ -85,7 +89,11 @@ body
 
     #problems
       float: left
-      width: 650px
+      width: 620px
+      padding-right: 30px
+
+      h2
+        margin-top: 0
 
     #step_problem
       form
@@ -95,11 +103,12 @@ body
           width: 500px
 
           &.submit
-            width: 100px
+            width: 80px
 
         label
           display: block
           font-size: 1.4em
+          padding-bottom: 5px
 
         p.help
           font-size: small
@@ -138,6 +147,12 @@ body
 
         p.link
           margin: 0
+          font-size: 0.9em
+
+      #next_block
+        text-align: right
+        display: block
+        padding-top: 15px
 
     #hospital_details
       float: left

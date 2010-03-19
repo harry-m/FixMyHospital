@@ -32,10 +32,17 @@ end
 
 get '/find' do
   hospitals = get_services(params[:q])
-  haml(:find, :locals => {:hospitals => hospitals, :search_terms => params[:q]})
+
+  if hospitals.size() == 1
+    redirect "/view/#{hospitals.first.code1}/#{hospitals.first.code2}/#{CGI.escape(hospitals.first.name)}"
+  else
+    haml(:find, :locals => {:hospitals => hospitals, :search_terms => params[:q]})
+  end
 end
 
-get /view\/([a-zA-Z0-9]+)\/([a-zA-Z0-9])*\/(.*)/ do |code1, code2, hospital_name|
+get /view\/([a-zA-Z0-9]+)\/(.*)/ do |code1, hospital_name|
+  code2 = ''
+
   hospital = get_service(code1, code2)
 
   problems = Problem.all(:code1 => code1, :code2 => code2, :order => [:created_at.desc])

@@ -3,6 +3,8 @@
     %h2=hospital.name
     %p.address="#{hospital.street}, #{hospital.city}, #{hospital.postcode}"
     &=hospital.description
+    %p.link <a href="#{hospital.details_url}">Read more at NHS Choices</a>
+
   #report_problem
     %h2 Report problem
     %form{:action => '/report_problem', :method => 'post'}
