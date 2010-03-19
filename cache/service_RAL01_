@@ -1,0 +1,11 @@
+--- !ruby/struct:NHSHospital 
+name: Royal Free Hospital
+details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RAL01
+street: Pond Street
+city: London
+region: Greater London
+postcode: NW3 2QG
+code1: RAL01
+code2: ""
+email: pals@royalfree.nhs.uk
+description: ""

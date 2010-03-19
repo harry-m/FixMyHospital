@@ -1,0 +1,11 @@
+--- !ruby/struct:NHSHospital 
+name: St Lukes Hospital
+details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RAE05
+street: Little Horton Lane
+city: Bradford
+region: West Yorkshire
+postcode: BD5 0NA
+code1: RAE05
+code2: ""
+email: jo.bray@bradfordhospitals.nhs.uk
+description: ""

@@ -1,0 +1,8 @@
+#step_problem
+  %h2 Report a problem in a hospital
+  %p Remember, this is for specific problems, not general feedback. To give general feedback, visit <a href="http://www.patientopinion.org.uk">Patient Opinion</a>.
+  %form{:action => '/find', :method => 'get'}
+    %label{:for => 'postcode'} Postcode:
+    %input{:name => 'q', :id => 'postcode', :type => 'text'}
+    %input{:type => 'submit', :value => 'Go'}
+    %p.help Either yours, or somewhere near the hospital you want to find

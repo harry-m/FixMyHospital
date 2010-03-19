@@ -1,0 +1,11 @@
+--- !ruby/struct:NHSHospital 
+name: BMI - The Garden Hospital
+details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=NT416
+street: 46-50 Sunny Gardens Road
+city: London
+region: Greater London
+postcode: NW4 1RP
+code1: NT416
+code2: ""
+email: garden@bmihealthcare.co.uk
+description: ""

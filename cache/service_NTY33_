@@ -1,0 +1,11 @@
+--- !ruby/struct:NHSHospital 
+name: Royal Hospital For Neuro-Disability
+details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=NTY33
+street: West Hill
+city: London
+region: Greater London
+postcode: SW15 3SW
+code1: NTY33
+code2: ""
+email: info@rhn.org.uk
+description: ""

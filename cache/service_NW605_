@@ -1,0 +1,11 @@
+--- !ruby/struct:NHSHospital 
+name: London Bridge Hospital
+details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=NW605
+street: 27 Tooley Street
+city: London
+region: Greater London
+postcode: SE1 2PR
+code1: NW605
+code2: ""
+email: info.lbh@hcahealthcare.co.uk
+description: ""

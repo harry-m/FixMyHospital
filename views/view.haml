@@ -1,0 +1,43 @@
+#hospital_details
+  #details
+    %h2=hospital.name
+    &=hospital.description
+    %p.address="#{hospital.street}<br>#{hospital.city}<br>#{hospital.postcode}"
+  #report_problem
+    %h2 Report problem
+    %form{:action => '/report_problem', :method => 'post'}
+      %label{:for => 'subject'} Subject
+      %input{:type => 'text', :id => 'subject', :name => 'subject', :value => params[:subject]}
+      %label{:for => 'details'} Details
+      %textarea{:id => 'details', :name => 'details'}=params[:details] 
+      %label{:for => 'photo'} Photo
+      %input{:type => 'file', :id => 'photo', :name => 'photo'}
+      %label{:for => 'name'} Name
+      %input{:type => 'text', :id => 'name', :name => 'name', :value => params[:name]}
+      %label{:for => 'email'} Email
+      %input{:type => 'email', :id => 'email', :name => 'email', :value => params[:email]}
+      %label{:for => 'phone'} Phone
+      %input{:type => 'text', :id => 'phone', :name => 'phone', :value => params[:phone]}
+
+      %p Please note:
+      %ul
+        %li Remember that this service is for reporting <strong>specific</strong> problems that can be fixed. If this doesn't describe your problem, you might be better off <a href="mailto:#{hospital.email}">contacting your hospital directly</a>, or using a service such as <a href="http://www.patientopinion.org.uk">Patient Opinion</a>
+        %li Please be concise, polite and to the point
+        %li Please do not be abusive &mdash; abusing your hospital devalues the service for all users
+        %li Writing your message in all capitals makes it hard to read, as does a lack of punctuation
+
+      %input{:type => 'hidden', :name => 'code1', :value => hospital.code1}
+      %input{:type => 'hidden', :name => 'code2', :value => hospital.code2}
+      %input.submit{:type => 'submit', :value => 'Report problem'}
+#hospital_problems
+  %h2 Existing problems
+  - problems.each do |problem|
+    %div.problem
+      %h3=problem.subject
+      &=problem.photo
+      &=problem.details
+      - if problem.comments.size > 0
+        %a{:href => '#'}="Read #{problem.comments.size} comments"
+      - else
+        %a{:href => '#'}="Post a comment"
+%div.clear

@@ -1,0 +1,11 @@
+--- !ruby/struct:NHSHospital 
+name: Guy's Hospital
+details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RJ121
+street: Great Maze Pond
+city: London
+region: Greater London
+postcode: SE1 9RT
+code1: RJ121
+code2: ""
+email: communications@gstt.nhs.uk
+description: ""

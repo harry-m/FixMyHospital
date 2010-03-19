@@ -1,0 +1,11 @@
+--- !ruby/struct:NHSHospital 
+name: Moorfields At St George's Hospital
+details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RP604
+street: St. Georges Hospital
+city: London
+region: Greater London
+postcode: SW17 0QT
+code1: RP604
+code2: ""
+email: info@moorfields.nhs.uk
+description: ""

@@ -1,0 +1,11 @@
+--- !ruby/struct:NHSHospital 
+name: The Wellington Hospital
+details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=NW602
+street: 8a Wellington Place
+city: London
+region: Greater London
+postcode: NW8 9LE
+code1: NW602
+code2: ""
+email: Wellington.enquiryhelpline@hcahealthcare.co.uk
+description: ""

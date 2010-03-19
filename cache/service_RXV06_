@@ -1,0 +1,11 @@
+--- !ruby/struct:NHSHospital 
+name: Prestwich Hospital
+details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RXV06
+street: Bury New Road
+city: Manchester
+region: Greater Manchester
+postcode: M25 3BL
+code1: RXV06
+code2: ""
+email: 
+description: ""

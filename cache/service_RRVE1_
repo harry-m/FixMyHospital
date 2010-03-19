@@ -1,0 +1,11 @@
+--- !ruby/struct:NHSHospital 
+name: The Eastman Dental Hospital
+details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RRVE1
+street: 256 Gray's Inn Road
+city: London
+region: Greater London
+postcode: WC1X 8LD
+code1: RRVE1
+code2: ""
+email: 
+description: ""

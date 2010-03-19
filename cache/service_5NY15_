@@ -1,0 +1,11 @@
+--- !ruby/struct:NHSHospital 
+name: Eccleshill Community Hospital
+details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=5NY15
+street: 450 Harrogate Road
+city: Bradford
+region: West Yorkshire
+postcode: BD10 0JE
+code1: 5NY15
+code2: ""
+email: 
+description: ""

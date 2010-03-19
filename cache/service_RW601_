@@ -1,0 +1,11 @@
+--- !ruby/struct:NHSHospital 
+name: Fairfield General Hospital (acute)
+details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RW601
+street: Fairfield General Hospital
+city: Bury
+region: Lancashire
+postcode: BL9 7TD
+code1: RW601
+code2: ""
+email: enquiries@pat.nhs.uk
+description: ""

@@ -1,0 +1,11 @@
+--- !ruby/struct:NHSHospital 
+name: St George's Hospital (Tooting)
+details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RJ701
+street: Blackshaw Road
+city: London
+region: Greater London
+postcode: SW17 0QT
+code1: RJ701
+code2: ""
+email: communications@stgeorges.nhs.uk
+description: ""

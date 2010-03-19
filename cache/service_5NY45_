@@ -1,0 +1,11 @@
+--- !ruby/struct:NHSHospital 
+name: Westbourne Green Community Hospital
+details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=5NY45
+street: 26 Heaton Road
+city: Bradford
+region: West Yorkshire
+postcode: BD8 8RA
+code1: 5NY45
+code2: ""
+email: 
+description: ""

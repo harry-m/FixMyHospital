@@ -1,0 +1,11 @@
+--- !ruby/struct:NHSHospital 
+name: Shipley Hospital
+details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=5NY42
+street: 98 Kirkgate
+city: Shipley
+region: West Yorkshire
+postcode: BD18 3LT
+code1: 5NY42
+code2: ""
+email: 
+description: ""

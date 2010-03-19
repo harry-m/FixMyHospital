@@ -1,0 +1,11 @@
+--- !ruby/struct:NHSHospital 
+name: Royal National Throat, Nose and Ear Hospital
+details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RAL16
+street: 330 Gray's Inn Road
+city: London
+region: Greater London
+postcode: WC1X 8DA
+code1: RAL16
+code2: ""
+email: pals@royalfree.nhs.uk
+description: ""

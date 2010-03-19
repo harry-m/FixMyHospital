@@ -1,0 +1,11 @@
+--- !ruby/struct:NHSHospital 
+name: Queen Marys Hospital (Roehampton)
+details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=5LG01
+street: Roehampton Lane
+city: London
+region: Greater London
+postcode: SW15 5PN
+code1: 5LG01
+code2: ""
+email: comms@wpct.nhs.uk
+description: ""

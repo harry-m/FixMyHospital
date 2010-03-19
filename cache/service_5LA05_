@@ -1,0 +1,11 @@
+--- !ruby/struct:NHSHospital 
+name: St Charles Hospital
+details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=5LA05
+street: Exmoor Street
+city: London
+region: Greater London
+postcode: W10 6DZ
+code1: 5LA05
+code2: ""
+email: 
+description: ""

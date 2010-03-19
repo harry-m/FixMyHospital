@@ -1,0 +1,11 @@
+--- !ruby/struct:NHSHospital 
+name: St Bartholomew's Hospital
+details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RNJM0
+street: West Smithfield
+city: London
+region: Greater London
+postcode: EC1A 7BE
+code1: RNJM0
+code2: ""
+email: communications.dept@bartsandthelondon.nhs.uk
+description: ""

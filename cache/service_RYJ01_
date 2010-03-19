@@ -1,0 +1,11 @@
+--- !ruby/struct:NHSHospital 
+name: St Mary's Hospital (HQ)
+details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RYJ01
+street: Praed Street
+city: London
+region: Greater London
+postcode: W2 1NY
+code1: RYJ01
+code2: ""
+email: 
+description: ""

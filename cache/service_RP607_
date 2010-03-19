@@ -1,0 +1,11 @@
+--- !ruby/struct:NHSHospital 
+name: Moorfields At Mile End Hospital
+details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RP607
+street: Bancroft Road
+city: London
+region: Greater London
+postcode: E1 4DG
+code1: RP607
+code2: ""
+email: info@moorfields.nhs.uk
+description: ""

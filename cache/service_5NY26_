@@ -1,0 +1,11 @@
+--- !ruby/struct:NHSHospital 
+name: Leeds Road Community Hospital
+details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=5NY26
+street: Maudsley Street
+city: Bradford
+region: West Yorkshire
+postcode: BD3 9LH
+code1: 5NY26
+code2: ""
+email: 
+description: ""

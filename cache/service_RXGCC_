@@ -1,0 +1,11 @@
+--- !ruby/struct:NHSHospital 
+name: Dales Unit
+details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RXGCC
+street: Royal Infirmary
+city: Huddersfield
+region: West Yorkshire
+postcode: HD3 3EA
+code1: RXGCC
+code2: ""
+email: 
+description: ""

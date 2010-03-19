@@ -1,0 +1,11 @@
+--- !ruby/struct:NHSHospital 
+name: BMI - The Highfield Hospital
+details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=NT420
+street: Manchester Road
+city: Rochdale
+region: Lancashire
+postcode: OL11 4LZ
+code1: NT420
+code2: ""
+email: highfield@bmihealthcare.co.uk
+description: ""

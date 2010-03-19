@@ -1,0 +1,11 @@
+--- !ruby/struct:NHSHospital 
+name: Yorkshire Eye Hospital
+details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=NTYD6
+street: 937 Harrogate Road
+city: Bradford
+region: West Yorkshire
+postcode: BD10 0RD
+code1: NTYD6
+code2: ""
+email: info@yorkshireeyehospital.co.uk
+description: ""

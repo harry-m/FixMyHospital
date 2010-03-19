@@ -1,0 +1,498 @@
+--- !ruby/object:NHSHospitals 
+service_type: 5
+values: 
+- !ruby/struct:NHSHospital 
+  name: Charing Cross Hospital
+  details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RYJ02
+  street: Fulham Palace Road
+  city: London
+  region: Greater London
+  postcode: W6 8RF
+  code1: RYJ02
+  code2: ""
+  email: 
+  description: ""
+- !ruby/struct:NHSHospital 
+  name: Hammersmith Hospital
+  details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RYJ03
+  street: Du Cane Road
+  city: London
+  region: Greater London
+  postcode: W12 0HS
+  code1: RYJ03
+  code2: ""
+  email: 
+  description: ""
+- !ruby/struct:NHSHospital 
+  name: Queen Charlotte's Hospital
+  details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RYJ04
+  street: Du Cane Road
+  city: London
+  region: Greater London
+  postcode: W12 0HS
+  code1: RYJ04
+  code2: ""
+  email: 
+  description: ""
+- !ruby/struct:NHSHospital 
+  name: Chelsea and Westminster Hospital
+  details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RQM01
+  street: 369 Fulham Road
+  city: London
+  region: Greater London
+  postcode: SW10 9NH
+  code1: RQM01
+  code2: ""
+  email: pals@chelwest.nhs.uk
+  description: ""
+- !ruby/struct:NHSHospital 
+  name: Barnes Hospital
+  details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RQY05
+  street: South Worple Way
+  city: London
+  region: Greater London
+  postcode: SW14 8SU
+  code1: RQY05
+  code2: ""
+  email: web.editor@swlstg-tr.nhs.uk
+  description: ""
+- !ruby/struct:NHSHospital 
+  name: St Charles Hospital
+  details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=5LA05
+  street: Exmoor Street
+  city: London
+  region: Greater London
+  postcode: W10 6DZ
+  code1: 5LA05
+  code2: ""
+  email: 
+  description: ""
+- !ruby/struct:NHSHospital 
+  name: The Royal Marsden Hospital (London)
+  details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RPY01
+  street: Fulham Road
+  city: London
+  region: Greater London
+  postcode: SW3 6JJ
+  code1: RPY01
+  code2: ""
+  email: patientcentre@royalmarsden.nhs.uk
+  description: ""
+- !ruby/struct:NHSHospital 
+  name: Priory Hospital Roehampton
+  details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=NTN10
+  street: Priory Lane
+  city: London
+  region: Greater London
+  postcode: SW15 5JJ
+  code1: NTN10
+  code2: ""
+  email: roehampton@prioryhealthcare.com
+  description: ""
+- !ruby/struct:NHSHospital 
+  name: Royal Brompton Hospital
+  details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RT302
+  street: Sydney Street
+  city: London
+  region: Greater London
+  postcode: SW3 6NP
+  code1: RT302
+  code2: ""
+  email: webadmin@rbht.nhs.uk
+  description: ""
+- !ruby/struct:NHSHospital 
+  name: Queen Marys Hospital (Roehampton)
+  details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=5LG01
+  street: Roehampton Lane
+  city: London
+  region: Greater London
+  postcode: SW15 5PN
+  code1: 5LG01
+  code2: ""
+  email: comms@wpct.nhs.uk
+  description: ""
+- !ruby/struct:NHSHospital 
+  name: Royal Hospital For Neuro-Disability
+  details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=NTY33
+  street: West Hill
+  city: London
+  region: Greater London
+  postcode: SW15 3SW
+  code1: NTY33
+  code2: ""
+  email: info@rhn.org.uk
+  description: ""
+- !ruby/struct:NHSHospital 
+  name: St Mary's Hospital (HQ)
+  details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RYJ01
+  street: Praed Street
+  city: London
+  region: Greater London
+  postcode: W2 1NY
+  code1: RYJ01
+  code2: ""
+  email: 
+  description: ""
+- !ruby/struct:NHSHospital 
+  name: St George's At St John's Therapy Centre
+  details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RJ760
+  street: 162 St. John's Hill
+  city: London
+  region: Greater London
+  postcode: SW11 1SW
+  code1: RJ760
+  code2: ""
+  email: communications@stgeorges.nhs.uk
+  description: ""
+- !ruby/struct:NHSHospital 
+  name: The Huntercombe Hospital - Roehampton
+  details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=NV202
+  street: Holybourne Avenue
+  city: London
+  region: Greater London
+  postcode: SW15 4JL
+  code1: NV202
+  code2: ""
+  email: 
+  description: ""
+- !ruby/struct:NHSHospital 
+  name: Central Middlesex Hospital
+  details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RV831
+  street: Acton Lane
+  city: London
+  region: Greater London
+  postcode: NW10 7NS
+  code1: RV831
+  code2: ""
+  email: trust@nwlh.nhs.uk
+  description: ""
+- !ruby/struct:NHSHospital 
+  name: Western Eye Hospital
+  details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RYJ07
+  street: 153-173 Marylebone Road
+  city: London
+  region: Greater London
+  postcode: NW1 5QH
+  code1: RYJ07
+  code2: ""
+  email: 
+  description: ""
+- !ruby/struct:NHSHospital 
+  name: Bolingbroke Hospital
+  details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RJ706
+  street: Bolingbroke Grove
+  city: London
+  region: Greater London
+  postcode: SW11 6HN
+  code1: RJ706
+  code2: ""
+  email: 
+  description: ""
+- !ruby/struct:NHSHospital 
+  name: Willesden Centre For Health and Care
+  details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=5K504
+  street: Robson Avenue
+  city: London
+  region: Greater London
+  postcode: NW10 3RY
+  code1: 5K504
+  code2: ""
+  email: 
+  description: ""
+- !ruby/struct:NHSHospital 
+  name: The Wellington Hospital
+  details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=NW602
+  street: 8a Wellington Place
+  city: London
+  region: Greater London
+  postcode: NW8 9LE
+  code1: NW602
+  code2: ""
+  email: Wellington.enquiryhelpline@hcahealthcare.co.uk
+  description: ""
+- !ruby/struct:NHSHospital 
+  name: Parkside Hospital
+  details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=NTY62
+  street: 53 Parkside
+  city: London
+  region: Greater London
+  postcode: SW19 5NX
+  code1: NTY62
+  code2: ""
+  email: info@parkside-hospital.co.uk
+  description: ""
+- !ruby/struct:NHSHospital 
+  name: The Gordon Hospital
+  details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RV346
+  street: Bloomburg Street
+  city: London
+  region: Greater London
+  postcode: SW1V 2RH
+  code1: RV346
+  code2: ""
+  email: 
+  description: ""
+- !ruby/struct:NHSHospital 
+  name: The Heart Hospital
+  details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RRV30
+  street: 16-18 Westmoreland Street
+  city: London
+  region: Greater London
+  postcode: W1G 8PH
+  code1: RRV30
+  code2: ""
+  email: 
+  description: ""
+- !ruby/struct:NHSHospital 
+  name: Royal National Orthopaedic Hospital (Bolsover Street)
+  details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RAN02
+  street: 45-51 Bolsover Street
+  city: London
+  region: Greater London
+  postcode: W1W 5AQ
+  code1: RAN02
+  code2: ""
+  email: enquiries@rnoh.nhs.uk
+  description: ""
+- !ruby/struct:NHSHospital 
+  name: Springfield University Hospital
+  details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RQY01
+  street: 61 Glenburnie Road
+  city: London
+  region: Greater London
+  postcode: SW17 7DJ
+  code1: RQY01
+  code2: ""
+  email: web.editor@swlstg-tr.nhs.uk
+  description: ""
+- !ruby/struct:NHSHospital 
+  name: Hospital For Tropical Diseases
+  details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RRVRH
+  street: Mortimer Market Centre
+  city: London
+  region: Greater London
+  postcode: WC1E 6JD
+  code1: RRVRH
+  code2: ""
+  email: 
+  description: ""
+- !ruby/struct:NHSHospital 
+  name: University College Hospital
+  details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RRV03
+  street: 235 Euston Road
+  city: London
+  region: Greater London
+  postcode: NW1 2BU
+  code1: RRV03
+  code2: ""
+  email: pals@uclh.nhs.uk
+  description: ""
+- !ruby/struct:NHSHospital 
+  name: University College Hospital Elizabeth Garrett Anderson Wing
+  details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RRV11
+  street: 235 Euston Road
+  city: London
+  region: Greater London
+  postcode: NW1 2BU
+  code1: RRV11
+  code2: ""
+  email: 
+  description: ""
+- !ruby/struct:NHSHospital 
+  name: West Middlesex University Hospital
+  details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RFW01
+  street: Twickenham Road
+  city: Isleworth
+  region: Middlesex
+  postcode: TW7 6AF
+  code1: RFW01
+  code2: ""
+  email: corporate.affairs@wmuh.nhs.uk
+  description: ""
+- !ruby/struct:NHSHospital 
+  name: St Thomas' Hospital
+  details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RJ122
+  street: Westminster Bridge Road
+  city: London
+  region: Greater London
+  postcode: SE1 7EH
+  code1: RJ122
+  code2: ""
+  email: communications@gstt.nhs.uk
+  description: ""
+- !ruby/struct:NHSHospital 
+  name: The Lambeth Hospital
+  details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RV502
+  street: 108 Landor Road
+  city: London
+  region: Greater London
+  postcode: SW9 9NU
+  code1: RV502
+  code2: ""
+  email: 
+  description: ""
+- !ruby/struct:NHSHospital 
+  name: St George's Hospital (Tooting)
+  details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RJ701
+  street: Blackshaw Road
+  city: London
+  region: Greater London
+  postcode: SW17 0QT
+  code1: RJ701
+  code2: ""
+  email: communications@stgeorges.nhs.uk
+  description: ""
+- !ruby/struct:NHSHospital 
+  name: Moorfields At St George's Hospital
+  details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RP604
+  street: St. Georges Hospital
+  city: London
+  region: Greater London
+  postcode: SW17 0QT
+  code1: RP604
+  code2: ""
+  email: info@moorfields.nhs.uk
+  description: ""
+- !ruby/struct:NHSHospital 
+  name: National Hospital For Neurology and Neurosurgery, Queen Square
+  details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RRVNQ
+  street: Queen Square
+  city: London
+  region: Greater London
+  postcode: WC1N 3BG
+  code1: RRVNQ
+  code2: ""
+  email: 
+  description: ""
+- !ruby/struct:NHSHospital 
+  name: Royal London Homeopathic Hospital
+  details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RRV60
+  street: 60 Great Ormond Street
+  city: London
+  region: Greater London
+  postcode: WC1N 3HR
+  code1: RRV60
+  code2: ""
+  email: rlhhpatients@uclh.org
+  description: ""
+- !ruby/struct:NHSHospital 
+  name: Great Ormond Street Hospital Central London Site
+  details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RP401
+  street: Great Ormond Street
+  city: London
+  region: Greater London
+  postcode: WC1N 3JH
+  code1: RP401
+  code2: ""
+  email: 
+  description: ""
+- !ruby/struct:NHSHospital 
+  name: Royal Free Hospital
+  details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RAL01
+  street: Pond Street
+  city: London
+  region: Greater London
+  postcode: NW3 2QG
+  code1: RAL01
+  code2: ""
+  email: pals@royalfree.nhs.uk
+  description: ""
+- !ruby/struct:NHSHospital 
+  name: St Pancras Hospital
+  details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=5K7Q8
+  street: 4 St Pancras Way
+  city: London
+  region: Greater London
+  postcode: NW1 0PE
+  code1: 5K7Q8
+  code2: ""
+  email: pss@camdenpct.nhs.uk
+  description: ""
+- !ruby/struct:NHSHospital 
+  name: The Eastman Dental Hospital
+  details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RRVE1
+  street: 256 Gray's Inn Road
+  city: London
+  region: Greater London
+  postcode: WC1X 8LD
+  code1: RRVE1
+  code2: ""
+  email: 
+  description: ""
+- !ruby/struct:NHSHospital 
+  name: Royal National Throat, Nose and Ear Hospital
+  details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RAL16
+  street: 330 Gray's Inn Road
+  city: London
+  region: Greater London
+  postcode: WC1X 8DA
+  code1: RAL16
+  code2: ""
+  email: pals@royalfree.nhs.uk
+  description: ""
+- !ruby/struct:NHSHospital 
+  name: Ealing Hospital
+  details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RC368
+  street: Uxbridge Road
+  city: Southall
+  region: Middlesex
+  postcode: UB1 3HW
+  code1: RC368
+  code2: ""
+  email: 
+  description: ""
+- !ruby/struct:NHSHospital 
+  name: Moorfields At Ealing Hospital
+  details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RP610
+  street: Uxbridge Road
+  city: Southall
+  region: Middlesex
+  postcode: UB1 3HW
+  code1: RP610
+  code2: ""
+  email: 
+  description: ""
+- !ruby/struct:NHSHospital 
+  name: Cassel Hospital
+  details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RKL48
+  street: 1 Ham Common
+  city: Richmond
+  region: Surrey
+  postcode: TW10 7JF
+  code1: RKL48
+  code2: ""
+  email: Cassel.ESPDreferrals@wlmht.nhs.uk
+  description: ""
+- !ruby/struct:NHSHospital 
+  name: Nelson Hospital
+  details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RQY42
+  street: Kingston Road
+  city: London
+  region: Greater London
+  postcode: SW20 8DB
+  code1: RQY42
+  code2: ""
+  email: web.editor@swlstg-tr.nhs.uk
+  description: ""
+- !ruby/struct:NHSHospital 
+  name: Nelson Hospital
+  details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=5M703
+  street: Kingston Road
+  city: London
+  region: Greater London
+  postcode: SW20 8DB
+  code1: 5M703
+  code2: ""
+  email: 
+  description: ""
+- !ruby/struct:NHSHospital 
+  name: St Bartholomew's Hospital
+  details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RNJM0
+  street: West Smithfield
+  city: London
+  region: Greater London
+  postcode: EC1A 7BE
+  code1: RNJM0
+  code2: ""
+  email: communications.dept@bartsandthelondon.nhs.uk
+  description: ""

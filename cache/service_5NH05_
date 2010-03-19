@@ -1,0 +1,11 @@
+--- !ruby/struct:NHSHospital 
+name: Clitheroe Hospital
+details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=5NH05
+street: Chatburn Road
+city: Clitheroe
+region: Lancashire
+postcode: BB7 4JX
+code1: 5NH05
+code2: ""
+email: 
+description: ""

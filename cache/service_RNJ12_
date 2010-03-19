@@ -1,0 +1,11 @@
+--- !ruby/struct:NHSHospital 
+name: The Royal London Hospital
+details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RNJ12
+street: Whitechapel
+city: London
+region: Greater London
+postcode: E1 1BB
+code1: RNJ12
+code2: ""
+email: enquiries@bartsandthelondon.nhs.uk
+description: ""

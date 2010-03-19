@@ -1,0 +1,11 @@
+--- !ruby/struct:NHSHospital 
+name: Pendle Community Hospital
+details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RXR50
+street: Leeds Road
+city: Nelson
+region: Lancashire
+postcode: BB9 9SZ
+code1: RXR50
+code2: ""
+email: contact@elht.nhs.uk
+description: ""

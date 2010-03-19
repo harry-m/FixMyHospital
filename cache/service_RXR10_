@@ -1,0 +1,11 @@
+--- !ruby/struct:NHSHospital 
+name: Burnley General Hospital
+details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RXR10
+street: Casterton Avenue
+city: Burnley
+region: Lancashire
+postcode: BB10 2PQ
+code1: RXR10
+code2: ""
+email: contact@elht.nhs.uk
+description: ""

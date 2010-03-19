@@ -1,0 +1,11 @@
+--- !ruby/struct:NHSHospital 
+name: York Clinic
+details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RV511
+street: Thomas Guy House
+city: London
+region: Greater London
+postcode: SE1 3RR
+code1: RV511
+code2: ""
+email: 
+description: ""

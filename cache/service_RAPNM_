@@ -1,0 +1,11 @@
+--- !ruby/struct:NHSHospital 
+name: North Middlesex Hospital
+details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RAPNM
+street: Sterling Way
+city: London
+region: Greater London
+postcode: N18 1QX
+code1: RAPNM
+code2: ""
+email: firstname.lastname@nmh.nhs.uk
+description: ""

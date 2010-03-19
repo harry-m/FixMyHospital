@@ -1,0 +1,11 @@
+--- !ruby/struct:NHSHospital 
+name: Ealing Hospital
+details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RC368
+street: Uxbridge Road
+city: Southall
+region: Middlesex
+postcode: UB1 3HW
+code1: RC368
+code2: ""
+email: 
+description: ""

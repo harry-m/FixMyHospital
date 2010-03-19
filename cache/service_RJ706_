@@ -1,0 +1,11 @@
+--- !ruby/struct:NHSHospital 
+name: Bolingbroke Hospital
+details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RJ706
+street: Bolingbroke Grove
+city: London
+region: Greater London
+postcode: SW11 6HN
+code1: RJ706
+code2: ""
+email: 
+description: ""

@@ -1,0 +1,11 @@
+--- !ruby/struct:NHSHospital 
+name: Royal Blackburn Hospital
+details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=5NH03
+street: Haslingden Road
+city: Blackburn
+region: Lancashire
+postcode: BB2 3HH
+code1: 5NH03
+code2: ""
+email: 
+description: ""

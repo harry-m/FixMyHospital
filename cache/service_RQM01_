@@ -1,0 +1,11 @@
+--- !ruby/struct:NHSHospital 
+name: Chelsea and Westminster Hospital
+details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RQM01
+street: 369 Fulham Road
+city: London
+region: Greater London
+postcode: SW10 9NH
+code1: RQM01
+code2: ""
+email: pals@chelwest.nhs.uk
+description: ""

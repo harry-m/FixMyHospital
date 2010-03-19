@@ -1,0 +1,11 @@
+--- !ruby/struct:NHSHospital 
+name: Great Ormond Street Hospital Central London Site
+details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RP401
+street: Great Ormond Street
+city: London
+region: Greater London
+postcode: WC1N 3JH
+code1: RP401
+code2: ""
+email: 
+description: ""

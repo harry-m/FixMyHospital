@@ -1,0 +1,11 @@
+--- !ruby/struct:NHSHospital 
+name: Royal Oldham Hospital (mental health services)
+details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RT203
+street: Westhulme Avenue
+city: Oldham
+region: Lancashire
+postcode: OL1 2PN
+code1: RT203
+code2: ""
+email: 
+description: ""

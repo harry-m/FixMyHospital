@@ -1,0 +1,11 @@
+--- !ruby/struct:NHSHospital 
+name: Moorfields At St Ann's Hospital
+details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RP603
+street: St. Ann's Hospital
+city: London
+region: Greater London
+postcode: N15 3TH
+code1: RP603
+code2: ""
+email: info@moorfields.nhs.uk
+description: ""

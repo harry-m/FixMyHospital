@@ -1,0 +1,34 @@
+#problem
+  - if new
+    .new Your problem has been posted and sent to the hospital
+  %h2=problem.subject
+  - if problem.fixed
+    %p.fixed This problem has now been fixed
+  =problem.details.gsub("\n", '<br>')
+  %p.poster Posted by #{problem.name} on #{problem.created_at}
+  %h3 Comments
+  - if comments.size
+    - comments.each do |comment|
+      .comment{:id => "comment_#{comment.id}", :class => comment_class(comment)}
+        %h4
+          %a{:href => "mailto:#{comment.email}"}=comment.name
+          says:
+        =comment.comment.gsub("\n", '<br>')
+        %p.poster Posted at #{comment.created_at}
+  - else
+    %p No comments yet. Why not post the first?
+
+  #comment_form
+    %h4 Post Comment
+    %form{:action => '/post_comment', :method => 'post'}
+      %label{:for => 'name'} Name
+      %input{:type => 'text', :id => 'name', :name => 'name', :value => comment_params[:name]}
+      %label{:for => 'email'} Email
+      %input{:type => 'text', :id => 'email', :name => 'email', :value => comment_params[:email]}
+      %label{:for => 'web'} Website
+      %input{:type => 'text', :id => 'web', :name => 'web', :value => comment_params[:web]}
+      %label{:for => 'comment'} Comment
+      %textarea{:id => 'comment', :name => 'comment'}=comment_params[:comment]
+
+      %input{:type => 'hidden', :name => 'problem_id', :value => problem.id}
+      %input.submit{:type => 'submit', :value => 'Post Comment'}

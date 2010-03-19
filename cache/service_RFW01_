@@ -1,0 +1,11 @@
+--- !ruby/struct:NHSHospital 
+name: West Middlesex University Hospital
+details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RFW01
+street: Twickenham Road
+city: Isleworth
+region: Middlesex
+postcode: TW7 6AF
+code1: RFW01
+code2: ""
+email: corporate.affairs@wmuh.nhs.uk
+description: ""

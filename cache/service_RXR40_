@@ -1,0 +1,11 @@
+--- !ruby/struct:NHSHospital 
+name: Rossendale Hospital
+details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RXR40
+street: Haslingden Road
+city: Rossendale
+region: Lancashire
+postcode: BB4 6NE
+code1: RXR40
+code2: ""
+email: contact@elht.nhs.uk
+description: ""

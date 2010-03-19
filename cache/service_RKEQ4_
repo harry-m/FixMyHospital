@@ -1,0 +1,11 @@
+--- !ruby/struct:NHSHospital 
+name: The Whittington Hospital
+details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RKEQ4
+street: Magdala Avenue
+city: London
+region: Greater London
+postcode: N19 5NF
+code1: RKEQ4
+code2: ""
+email: Deborah.Goodhart@whittington.nhs.uk
+description: ""

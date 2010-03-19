@@ -1,0 +1,153 @@
+=form
+  label
+    display: block
+    padding-top: 10px
+
+  input, textarea
+    width: 470px
+
+  input.submit
+    width: auto
+
+  textarea
+    height: 150px
+
+
+.clear
+  clear: both
+
+p.button
+  width: 130px
+  -moz-box-shadow: 3px 3px 3px #666
+  -webkit-box-shadow: 3px 3px 3px #666
+  box-shadow: 3px 3px 3px #666
+
+  a
+    display: block
+    background: green
+    padding: 5px
+    text-align: center
+    color: white
+    text-decoration: none
+
+    &:hover
+      background: red
+
+body
+  font-family: "myriad pro", arial, sans-serif
+  background: #666
+  margin: 0
+
+#container
+  width: 1000px
+  margin: 0 auto
+  padding: 20px
+  background: white
+
+  #header
+    border-bottom: 1px solid #ccc
+    padding-bottom: 10px
+    margin-bottom: 20px
+
+    h1
+      margin: 0
+
+    ul, li
+      list-style: none
+      margin: 0
+      padding: 0
+
+  #content
+    #strap
+      font-size: 2em
+
+      p
+        margin: 0 0 10px 0
+
+    #step_feedprob
+      div
+        h2
+          font-size: 1.2em
+          
+      #feedback
+        float: right
+        width: 350px
+
+      #problems
+        float: left
+        width: 650px
+
+    #step_problem
+      form
+        background: #ccc
+        padding: 20px
+        width: 530px
+
+        input
+          font-size: 2em
+
+        label
+          display: block
+          font-size: 1.4em
+
+        p.help
+          font-size: small
+
+    #hospitals
+      .hospital
+        width: 310px
+        float: left
+        padding: 0 0 0 35px
+        border-top: 1px solid #ccc
+
+        &.clear
+          padding-left: 0
+
+        h3
+          margin: 10px 0 0 0
+
+        p.address
+          font-size: 0.9em
+          font-color: #999
+          margin: 0 0 10px 0
+
+    #hospital_details
+      float: left
+      width: 480px
+
+      #details
+      #report_problem
+        +form
+    #hospital_problems
+      float: right
+      width: 480px
+
+    #problem
+      width: 500px
+
+      .new
+        font-size: 1.2em
+        padding: 10px
+        margin: 0 0 10px 0
+        background: green 
+        color: white
+
+      p.poster
+        font-style: italic
+
+      .comment
+        padding: 10px
+
+        &.even
+          background: #ddd
+
+        &.odd
+          background: #f5f5f5
+          
+        h4
+          margin: 0
+          padding: 0 0 10px 0
+
+      #comment_form
+        width: 470px
+        +form

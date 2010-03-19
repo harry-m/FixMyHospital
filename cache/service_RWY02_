@@ -1,0 +1,11 @@
+--- !ruby/struct:NHSHospital 
+name: Calderdale Royal Hospital
+details_url: http://www.nhs.uk/ServiceDirectories/Pages/Hospital.aspx?id=RWY02
+street: Salterhebble
+city: Halifax
+region: West Yorkshire
+postcode: HX3 0PW
+code1: RWY02
+code2: ""
+email: pals@cht.nhs.uk
+description: ""
