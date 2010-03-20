@@ -35,6 +35,21 @@ helpers do
     classes
   end
 
+  def problem_class(problem)
+    @problem_count ||= 0
+    classes = ''
+
+    if(@problem_count % 2 == 0)
+      classes += ' even'
+    else
+      classes += ' odd'
+    end
+
+    @problem_count += 1
+
+    classes
+  end
+
   def get_services(q)
     hospitals = nil
     cache_file = "./cache/find_#{q.gsub(/\W/, '_').downcase}.yaml"

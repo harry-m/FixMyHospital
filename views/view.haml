@@ -36,12 +36,12 @@
   - if problems.size() == 0
     %p.noresults No problems reported so far
   - problems.each do |problem|
-    %div.problem
+    %div.problem{:class => problem_class(problem)}
       %h3=problem.subject
-      &=problem.photo
       &=problem.details
-      - if problem.comments.size > 0
-        %a{:href => "/problem/#{problem.id}"}="Read #{problem.comments.size} comments"
-      - else
-        %a{:href => "/problem/#{problem.id}"}="Post a comment"
+      %p.comments
+        - if problem.comments.size > 0
+          %a{:href => "/problem/#{problem.id}"}="Read #{problem.comments.size} comments"
+        - else
+          %a{:href => "/problem/#{problem.id}"}="Post a comment"
 %div.clear
