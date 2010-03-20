@@ -12,6 +12,7 @@ require 'helpers'
 require 'nhs_hospital'
 
 set(:haml, {:format => :html5, :attr_wrapper  => '"'})
+set(:host, '0.0.0.0')
 
 get '/' do
   haml :index
@@ -19,10 +20,6 @@ end
 
 get '/report' do
   haml :report
-end
-
-get '/script/:filename' do |filename|
-  File.open("./js/#{filename}").read()
 end
 
 get '/style.css' do
@@ -53,14 +50,26 @@ end
 post '/report_problem' do
   puts "!!!!! THERE IS NO VALIDATION OR ESCAPING FOR NEW PROBLEMS OMG !!!!!"
 
-  photo_path = ''
+  photo_file = ''
+
+  if params[:photo]
+    tmpfile = params[:photo][:tempfile]
+    name = params[:photo][:filename]
+    
+    puts "Uploading file, original name #{name.inspect}"
+    
+    photo_file = "/photos/#{params[:code1].downcase}_#{params[:subject].gsub(/\W/, '-').downcase}_#{name.downcase}"
+    while blk = tmpfile.read(65536)
+      File.open('./public' + photo_file, 'a'){|w| w.write(blk)}
+    end
+  end
 
   problem = Problem.new(
     :code1 => params[:code1],
     :code2 => params[:code2],
     :subject => params[:subject],
     :details => params[:details],
-    :photo => photo_path,
+    :photo => photo_file,
     :name => params[:name],
     :email => params[:email],
     :phone => params[:phone]
