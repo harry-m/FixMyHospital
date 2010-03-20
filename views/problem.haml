@@ -2,6 +2,7 @@
   - if new
     .new Your problem has been posted and sent to the hospital
   %h2=problem.subject
+  %p This is a problem at <a href='#'>The Whittington Hospital</a>
   - if problem.fixed
     .fixed.yes
       This problem has been fixed!
@@ -14,6 +15,11 @@
   =problem.details.gsub("\n", '<br>')
   %p.poster Posted by #{problem.name} on #{problem.created_at}
   %h3 Comments
+  %p
+    %a{:href => "##{rand()}"} Get email alerts for new comments on this problem
+    |
+    %a{:href => "##{rand()}"} Feed
+
   - if comments.size
     - comments.each do |comment|
       .comment{:id => "comment_#{comment.id}", :class => comment_class(comment)}

@@ -2,6 +2,7 @@
   #details
     %h2=hospital.name
     %p.address="#{hospital.street}, #{hospital.city}, #{hospital.postcode}"
+    %p.fixtime This hospital typically reports problems as fixed within <strong>5 weeks</strong> of receiving the report
     &=hospital.description
     %p.link <a href="#{hospital.details_url}">Read more at NHS Choices</a>
 
@@ -33,6 +34,11 @@
       %input.submit{:type => 'submit', :value => 'Report problem'}
 #hospital_problems
   %h2 Existing problems
+  %p
+    %a{:href => "##{rand()}"} Get email alerts for new problems at this hospital
+    |
+    %a{:href => "##{rand()}"} Feed
+
   - if problems.size() == 0
     %p.noresults No problems reported so far
   - problems.each do |problem|
