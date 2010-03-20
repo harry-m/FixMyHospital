@@ -38,6 +38,14 @@
   - problems.each do |problem|
     %div.problem{:class => problem_class(problem)}
       %h3=problem.subject
+      - if problem.fixed
+        .fixed.yes
+          This problem has been fixed!
+      - else
+        .fixed.no
+          This problem has not yet been fixed
+
+          
       &=problem.details
       %p.comments
         - if problem.comments.size > 0

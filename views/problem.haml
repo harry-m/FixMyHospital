@@ -3,7 +3,11 @@
     .new Your problem has been posted and sent to the hospital
   %h2=problem.subject
   - if problem.fixed
-    %p.fixed This problem has now been fixed
+    .fixed.yes
+      This problem has been fixed!
+  - else
+    .fixed.no
+      This problem has not yet been fixed
   - if problem.subject
     .photo
       %img{:src => problem.photo, :alt => problem.subject}
