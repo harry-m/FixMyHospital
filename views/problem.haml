@@ -4,6 +4,9 @@
   %h2=problem.subject
   - if problem.fixed
     %p.fixed This problem has now been fixed
+  - if problem.subject
+    .photo
+      %img{:src => problem.photo, :alt => problem.subject}
   =problem.details.gsub("\n", '<br>')
   %p.poster Posted by #{problem.name} on #{problem.created_at}
   %h3 Comments

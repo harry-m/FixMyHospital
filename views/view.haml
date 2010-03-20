@@ -7,7 +7,7 @@
 
   #report_problem
     %h2 Report problem
-    %form{:action => '/report_problem', :method => 'post'}
+    %form{:action => '/report_problem', :method => 'post', :enctype=>'multipart/form-data'}
       %label{:for => 'subject'} Subject
       %input{:type => 'text', :id => 'subject', :name => 'subject', :value => params[:subject]}
       %label{:for => 'details'} Details
@@ -41,7 +41,7 @@
       &=problem.photo
       &=problem.details
       - if problem.comments.size > 0
-        %a{:href => '#'}="Read #{problem.comments.size} comments"
+        %a{:href => "/problem/#{problem.id}"}="Read #{problem.comments.size} comments"
       - else
-        %a{:href => '#'}="Post a comment"
+        %a{:href => "/problem/#{problem.id}"}="Post a comment"
 %div.clear
